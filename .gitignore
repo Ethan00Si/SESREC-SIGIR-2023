@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+
+#large data files
+*.tsv
+*.pickle
+*.tar.gz
+
+#mac os
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#vscode
+.vscode/
+
+
+
+

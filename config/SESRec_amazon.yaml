@@ -1,0 +1,19 @@
+lr: 0.001
+min_lr: 0.00001
+weight_decay: 0.00001 # l2 norm
+patience: 5 # Number of epochs with no improvement after which learning rate will be reduced
+es_patience: 5 #patience for early stop
+
+num_blocks: 1
+num_heads: 4 
+
+dropout: 0.1
+
+infoNCE_temp: 0.1 #temperature
+infoNCE_neg_sample: 1024
+infoNCE_weight: 0.1 # weight in total loss
+triplet_weight: 0.001 # weight in total loss
+triplet_margin: 0.1
+
+
+pred_hid_units: [200, 80, 1]
