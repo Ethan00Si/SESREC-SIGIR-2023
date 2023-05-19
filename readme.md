@@ -1,7 +1,8 @@
 # When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation
 This is the official implementation of the SIGIR 2023 paper "When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation" based on PyTorch.
 
-[ACM Digital Library](https://doi.org/10.1145/3539618.3591786) This link will be available after the ACM SIGIR 2023.
+\[[arXiv](https://arxiv.org/abs/2305.10822)\]
+\[[ACM Digital Library](https://doi.org/10.1145/3539618.3591786)\] This link will be available after the ACM SIGIR 2023.
 
 
 <!-- Please cite our paper if you use this repository.
