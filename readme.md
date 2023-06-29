@@ -4,6 +4,8 @@ This is the official implementation of the SIGIR 2023 paper "When Search Meets R
 \[[arXiv](https://arxiv.org/abs/2305.10822)\]
 \[[ACM Digital Library](https://doi.org/10.1145/3539618.3591786)\] This link will be available after the ACM SIGIR 2023.
 
+### News:
+* [2023.06.29] Recently, we released the first public dataset containing users' real search and recommendation behaviors to facilitate the potential research! You can find the dataset from [https://ethan00si.github.io/KuaiSAR/](https://ethan00si.github.io/KuaiSAR/).
 
 <!-- Please cite our paper if you use this repository.
 
