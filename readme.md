@@ -2,22 +2,10 @@
 This is the official implementation of the SIGIR 2023 paper "When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation" based on PyTorch.
 
 \[[arXiv](https://arxiv.org/abs/2305.10822)\]
-\[[ACM Digital Library](https://doi.org/10.1145/3539618.3591786)\] This link will be available after the ACM SIGIR 2023.
+\[[ACM Digital Library](https://doi.org/10.1145/3539618.3591786)\]
 
 ### News:
 * [2023.06.29] Recently, we released the first public dataset containing users' real search and recommendation behaviors to facilitate the potential research! You can find the dataset from [https://ethan00si.github.io/KuaiSAR/](https://ethan00si.github.io/KuaiSAR/).
-
-<!-- Please cite our paper if you use this repository.
-
-```
-@inproceedings{si2023sesrec,
-  title={When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation},
-  author={Zihua Si, Zhongxiang Sun, Xiao Zhang, Jun Xu, Xiaoxue Zang, Yang Song, Kun Gai, Ji-Rong Wen},
-  booktitle={Proceedings of the ACM SIGIR Conference 2023},
-  pages={2256--2267},
-  year={2023}
-}
-``` -->
 
 
 ## Overview
@@ -74,6 +62,29 @@ We conducted the experiments based on the following environments:
 * OS: CentOS Linux release 7.4.1708 (Core)
 * GPU: The NVIDIA® T4 GPU
 * CPU: Intel(R) Xeon(R) Gold 6230R CPU @ 2.10GHz
+
+### Citation
+Please cite our paper if you use this repository.
+
+```
+@inproceedings{si2023SESRec,
+author = {Si, Zihua and Sun, Zhongxiang and Zhang, Xiao and Xu, Jun and Zang, Xiaoxue and Song, Yang and Gai, Kun and Wen, Ji-Rong},
+title = {When Search Meets Recommendation: Learning Disentangled Search Representation for Recommendation},
+year = {2023},
+isbn = {9781450394086},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3539618.3591786},
+doi = {10.1145/3539618.3591786},
+booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {1313–1323},
+numpages = {11},
+keywords = {search, contrastive learning, disentanglement learning, recommendation},
+location = {Taipei, Taiwan},
+series = {SIGIR '23}
+}
+```
+
 
 ### Contact
 If you have any questions, feel free to contact us through email zihua_si@ruc.edu.cn or GitHub issues. Thanks!
