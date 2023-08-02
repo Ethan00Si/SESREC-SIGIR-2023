@@ -72,8 +72,6 @@ class SESRec(nn.Module):
                     nn.init.zeros_(m.bias.data)
             elif isinstance(m, nn.Embedding):
                 nn.init.xavier_normal_(m.weight.data)
-            elif isinstance(m, nn.Parameter):
-                nn.init.xavier_normal_(m)
 
 
     def src_feat_process(self, src_feat, align_loss_input=None):
@@ -514,6 +512,9 @@ class CoAttention(nn.Module):
         self.W1 = nn.parameter.Parameter( torch.rand((self.embed_dim, self.embed_dim)) )
         self.Wq = nn.parameter.Parameter( torch.randn((1, self.embed_dim)) )
         self.Wd = nn.parameter.Parameter( torch.randn((1, self.embed_dim)) )
+        nn.init.xavier_normal_(self.W1)
+        nn.init.xavier_normal_(self.Wq)
+        nn.init.xavier_normal_(self.Wd)
 
         self.tanh = nn.Tanh()
         self.softmax = nn.Softmax(dim=-1)
@@ -652,6 +653,7 @@ class Target_Attention(nn.Module):
         super().__init__()
         
         self.W = nn.Parameter(torch.randn((1, hid_dim1, hid_dim2)))
+        nn.init.xavier_normal_(self.W)
         self.softmax = nn.Softmax(dim=-1)
 
      
